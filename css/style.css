@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+   
+}
+
+
+a{
+    
+    text-decoration:none;
+    color: rgb(81, 81, 236);
+}
+
+
+
+
+
+
+/* lado esquerdo */
+.inscricao-left{
+
+    background:rgb(97, 190, 252);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 40%;
+    height:100vh;
+    position:fixed;
+ 
+   
+}
+.fundo-left img{
+    width:90%;
+    height: 60%;
+    text-align: center;
+   position: absolute;
+   top:30%;
+}
+.fundo-left p{
+    position: absolute;
+    top:80%;
+    left:33%;
+    color:rgb(9, 87, 139);
+}
+.fundo-left a{
+    color:rgb(9, 87, 139);
+    text-decoration: underline;
+}
+
+.frase-left{
+    margin-left:10% ;
+}
+.frase-left h2{
+    
+
+    position: absolute;
+    top:15%;
+    font-family: 'Play', sans-serif;
+    color: rgb(9, 87, 139);
+
+}
+
+.frase-left a{
+    left: 0;
+    
+    color: rgb(32, 140, 212);
+    display: inline;
+    font-family:'Play', sans-serif;
+}
+.frase-left:hover a{
+    color: rgb(9, 87, 139);
+}
+
+.cabeçalho-left{
+    margin-top:7px ;
+    margin-left:7px ;  
+
+}
+
+.mobile-link{
+    display: none;
+}
+
+.cabeçalho-left a img{
+    width:20px;
+    padding:10px;
+}
+.cabeçalho-left a:hover img{
+    background:rgb(89, 168, 233);
+    
+    border-radius: 12px;
+
+}
+
+
+
+
+/* lado direito */
+
+.inscricao-right{
+  
+ 
+   float: right ;
+   width: 60%;
+   height:100vh ;
+
+ 
+ 
+}
+
+.cabeçalho-right { 
+    
+float: right;
+margin-top: 25px;
+margin-right: 25px;
+font-size: 0.9em;
+
+
+}
+.cabeçalho-right:hover a{
+    color: rgb(120, 120, 252);
+}
+
+
+
+.frase-right{
+     
+     font-weight: bold;
+     margin-bottom: 50px;
+     width: 20em;
+    
+}
+.frase-right h1{
+    display: none;
+}
+
+/* formulario */
+
+.formulario{
+    margin-top: 55%;
+    margin-left: 60%;
+    transform: translate(-100%,-50%);
+
+   
+}
+
+
+/* inputs */
+
+#name,#email,#password{
+    width: 25em;
+    height: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    background: #eeeeee;
+    margin-top:10px;
+    margin-bottom: 40px;
+    border: 1px solid #eeeeee;
+
+    
+}
+
+/* checkbox */
+#checkbox{
+    width: 20px;
+    height:20px;
+    cursor:pointer;
+    position: absolute;
+    top:0px;
+}
+.check{
+    display: inline-block;
+    width: 22em;
+    position: relative;
+    
+
+}
+
+
+.check:hover a{
+    color: rgb(120, 120, 252);
+}
+.listbox{
+    font-weight: 100;
+    color: gray;
+    cursor:pointer;
+    margin-left: 25px;
+
+}
+
+/* name,email e password */
+#name:hover{
+    background: #ffffff;
+    border: 1px solid rgba(219, 212, 212, 0.993);
+    box-shadow: 0px 0px 2px 4px  rgb(213, 235, 255) ;
+}
+
+#email:hover{
+    background: #ffffff;
+    border: 1px solid rgba(219, 212, 212, 0.993);
+    box-shadow: 0px 0px 2px 4px  rgb(213, 235, 255) ;
+}
+
+#password:hover{
+    background: #ffffff;
+    border: 1px solid rgba(219, 212, 212, 0.993);
+    box-shadow: 0px 0px 2px 4px  rgb(213, 235, 255) ;
+}
+
+#name:focus{
+    border: 1px solid rgb(131, 195, 255);
+    outline: 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 2px 4px  rgb(210, 234, 255) ;
+}
+
+#email:focus{
+    border: 1px solid rgb(131, 195, 255);
+    outline: 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 2px 4px  rgb(210, 234, 255) ;
+
+
+}
+
+#password:focus{
+    border: 1px solid rgb(131, 195, 255);
+    outline: 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 2px 4px  rgb(210, 234, 255) ;
+
+}
+
+
+
+
+label {
+
+    font-weight: bold;
+    display:block;
+    font-size:1em;
+
+}
+
+
+
+
+#botao{
+    
+    height: 40px;
+    
+    margin-top:40px;
+    width:12em ;
+    border-radius: 8px;border:0;
+    font-weight:bold ;
+    font-size:1em;
+    color:#ffffffff;
+    background:rgb(40, 86, 240) ;
+    cursor:pointer;    
+}
+#botao:hover{
+    background:rgb(81, 120, 248) ;
+    
+}
+
+
+
+.responsive-layout{
+    display: none;
+}
+
+
+
